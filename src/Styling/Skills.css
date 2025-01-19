@@ -1,0 +1,53 @@
+
+.skills{
+    height: 92vh;
+    width: 100%;
+    background-color: #262626;
+    overflow-y: auto;
+}
+.heading{
+    color: grey;
+    padding-left: 5vh;
+    font-size: 4.5vh;
+}
+.skills span{
+    color: palevioletred;
+    font-style: italic;
+}
+.skills .enumtype{
+    color: #8DDAF8;
+    padding-left: 10vh;
+    font-style: italic;
+   
+}
+.skills .comma{
+    color: white;
+    
+}
+.skills .comments{
+    color: grey;
+    padding-left: 10vh;
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+#curly-brac2{
+    color: #ffffff;
+    padding: 5vh;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        font-size: 2em;
+        padding-left: 3vh;
+    }
+    .subheading{
+        font-size: 1.5em;
+    }
+    .skills .comments{
+        font-size: 1.5em;
+        padding-left: 4vh;
+    }
+    .skills .enumtype{
+        font-size: 2em;
+    }
+}

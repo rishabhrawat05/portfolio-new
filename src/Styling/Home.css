@@ -1,0 +1,126 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #262626;
+    
+}
+.heading{
+    color: grey;
+    padding-left: 5vh;
+    font-size: 4.5vh;
+}
+.subheading{
+    color: #fc8f36;
+    padding: 5vh;
+}
+.home span{
+    color: #37cc5a;
+}
+#brac{
+    color: #ffffff;
+}
+#curly-brac{
+    color: #ffffff;
+}
+.output{
+    display: flex;
+}
+.system{
+    color: #21ade5;
+}
+.out{
+    color: #8DDAF8;
+}
+.println{
+    color: #A7EC21;
+}
+.intro{
+    color: #27d7b4;
+    width: 90%;
+    padding-left: 20vh;
+}
+.output{
+    padding-left: 10vh;
+}
+#brac2{
+    color: white;
+    padding-left: 10vh;
+}
+#brac3{
+    color: white;
+}
+#curly-brac2{
+    color: #ffffff;
+    padding-left: 5vh;
+}
+.icon{
+    padding-top: 2px;
+    color: white;
+    
+}
+
+button{
+    border-radius: 50%;
+    border: 2px solid #2ba047;
+
+}
+.footer{
+  
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.run{
+    color: white;
+    padding: 10px;
+}
+.closeIcon{
+    color: white;
+    
+}
+@media screen and (max-width: 768px){
+    .home{
+        width: auto;
+        overflow-y: auto;
+    
+    }
+    .home .heading{
+        font-size: 2em;
+    }
+    .home .subheading{
+        font-size: 1em;
+        padding-left: 3vh;
+        padding-bottom: 2vh;
+    }
+    .system, .out, .println{
+        font-size: 1em;
+    }
+    #brac{
+        font-size: 1em;
+    }
+    #curly-brac{
+        font-size: 1em;
+    }
+    .output{
+        padding-left: 5vh; 
+    }
+    .intro{
+        font-size: 1em;
+        padding-left: 10vh;
+        width: 95%;
+    }
+    #brac3{
+        font-size: 0.7em;
+    }
+    #curly-brac2{
+        font-size: 0.7em;
+    }
+    .run{
+        font-size: 1em;
+        
+    }
+   
+}

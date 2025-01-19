@@ -1,0 +1,29 @@
+.terminal{
+    background-color: black;
+    position:absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    height: 70vh;
+    width: 70%;
+    border: 5px solid grey;
+    border-radius: 10px;
+    
+   
+}
+.terminal h3{
+    color: white;
+    padding: 2vh;
+}
+.terminal span{
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .terminal{
+        height: 50%;
+        width: 90%;
+        overflow: auto;
+        top: 70%;
+        left: 50%;
+    }
+}

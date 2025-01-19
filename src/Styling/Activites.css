@@ -1,0 +1,110 @@
+.activites{
+    height: 100vh;
+    width: 100%;
+    background-color: #262626;
+    overflow: auto;
+    
+}
+.activites .heading{
+    color: grey;
+    padding-left: 5vh;
+    font-size: 4.5vh;
+}
+.reimagine{
+    background-image: url(../../assets/reimagine.png);
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.coddex{
+    background-image: url(../../assets/coddex.jpg);
+    height: 50%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.hacktoberfest{
+    background-image: url(../../assets/Hacktoberfest.webp);
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.ggsoc{
+    background-image: url(../../assets/ggsoc.png);
+    height: 30%;
+    width: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.hackweek{
+    background-image: url(../../assets/wHbcEEegRvkJFMA9h9uRJ4O41w.avif);
+    height: 50%;
+    width: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.events{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1%;
+    
+}
+.events h1{
+    color: white;
+}
+.about{
+    height: fit-content;
+    width: 45%;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 2vh;
+}
+.about p{
+    width: fit-content;
+
+}
+@media screen and (max-width: 768px){
+    .activites{
+        flex-direction: column;
+        
+        
+    }
+    .activites .heading{
+        color: grey;
+        padding-left: 3vh;
+        font-size: 2em;
+    }
+    .reimagine, .hacktoberfest, .ggsoc, .hackweek {
+        height: 30%;
+        width: 90%;
+        background-size: contain;
+        background-position: center;
+       
+    }
+    .coddex{
+        
+        width: 90%;
+        background-size: cover;
+        background-position: center;
+    }
+    .events{
+        flex-direction: column;
+        width: 100%;
+       
+        
+    }
+    .about{
+        width: 100%;
+        padding: 4%;
+    }
+    
+}

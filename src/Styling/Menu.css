@@ -1,0 +1,41 @@
+.menu{
+    width: 20%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    border-right: 15px solid grey;
+    padding-bottom: 5%;
+    
+}
+.list{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+h6{
+    text-transform: uppercase;
+    padding: 2vh;
+    font-size: 2.5vh;
+    border-bottom: 5px solid grey;
+}
+@media screen and (max-width: 768px){
+    .menu{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        flex-shrink: 0;
+        border-right: none;
+        
+    }
+    .list{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content:left;
+        font-size: 2.5em;
+        
+    }
+}

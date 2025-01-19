@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
+import Menu from './Components/Menu';
+import { useState } from 'react';
+import Skills from './Components/Skills';
+import Project from './Components/Projects';
+import Contact from './Components/Contact';
+import Activites from './Components/Activites';
 
 function App() {
+  const [classr,setClassr]=useState("About")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='myapp'>
+      <Menu recent={classr} setRecent={setClassr}/>
+      <div className='mainshow'>
+        <div className='topbar'>
+        </div>
+        {classr==="About" &&  <Home/>}
+        {classr==="Skills" && <Skills/>}
+        {classr==="Projects" && <Project/>}
+        {classr==="Activites" && <Activites/>}
+        {classr==="Contact" && <Contact/>}
+      </div>
+      
     </div>
+    
   );
 }
 

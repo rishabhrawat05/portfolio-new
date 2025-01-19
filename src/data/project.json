@@ -1,0 +1,75 @@
+[
+    {
+        "name":"Dropify",
+        "title":"Dropify - Your Ultimate E-commerce Solution!",
+        "description":"Dropify is the comprehensive e-commerce platform tailored to provide an enhanced, seamless shopping experience. Built with user convenience in mind, Dropify merges powerful technologies like Spring Boot and React.js to deliver a robust, responsive, and user-friendly solution. From effortless product searches and efficient cart management to a streamlined checkout process and support for various product categories and discounts, Dropify has everything you need to simplify and enrich your online shopping journey.",
+        "features":["Register and Login: Seamless user registration and secure login.",
+        "Search Products: Easily find what you need.",
+        "Add to Cart & Remove from Cart: Effortlessly manage your cart items.",
+        "Buy Products: Simple and secure checkout process.",
+        "Cart Checkout: Streamlined and efficient checkout experience.",
+        "Product Categories & Discounts: Browse products by categories and enjoy exclusive discounts.",
+        "Contact Support: Get your queries answered with our responsive support team.",
+        "Pagination: Smooth navigation through product listings."],
+        "technologies":["Spring Boot: For robust backend services.",
+        "React.js: For a dynamic and responsive user interface.",
+        "Eureka Server: For service discovery and registration.",
+        "MySQL: For reliable data management.",
+        "Postman: For API testing and integration."
+        ],
+        "github_link":"https://github.com/rishabhrawat05/Dropify"
+    },
+    {
+        "name":"IdeaHub",
+        "title":"IdeaHub: Share, Collaborate, and Innovate",
+        "description":"We all encounter unique ideas for solving problems in our daily lives, but often we lack a platform to share and develop these ideas collaboratively. IdeaHub is the solution. This application is designed to provide a space where everyone can post their ideas, receive constructive feedback, and unlock rewards for innovative solutions.",
+        "features":["Express Your Thoughts: Share your unique ideas regarding various problem statements with the community.",
+        "Comprehensive Insight: Provide a thorough description of your idea, including the specific problem it addresses and the potential solutions you propose.",
+        "Engage with Like-Minded Individuals: Connect and interact with a community of people who can offer valuable feedback on your ideas.",
+        "Highlight Useful Feedback: Users can upvote the feedback they find most useful, ensuring that the best suggestions rise to the top and gain greater visibility."
+       ],
+        "technologies":["Spring Boot: For robust backend services.",
+        "React.js: For a dynamic and responsive user interface.",
+        "MySQL: For reliable data management.",
+        "Postman: For API testing and integration."
+        ],
+        "github_link":"https://github.com/rishabhrawat05/IdeaHub"
+    },
+    {
+        "name": "HelloApp",
+        "title": "HelloApp: Real-Time Chat Application",
+        "description": "HelloApp is a real-time chat application built using Spring Boot, WebSocket, React.js, and MongoDB. The application allows users to communicate in real-time through a modern and responsive interface.",
+        "features": [
+            "Real-Time Messaging: Send and receive messages instantly using WebSocket technology.",
+            "User Authentication: Secure login and registration system.",
+            "Persistent Storage: Save chat history and user data with MongoDB.",
+            "Responsive UI: A modern and dynamic user interface built with React.js."
+        ],
+        "technologies": [
+            "Spring Boot: For robust backend services.",
+            "WebSocket: For real-time communication.",
+            "React.js: For a dynamic and responsive user interface.",
+            "MongoDB: For reliable data management."
+        ],
+        "github_link": "https://github.com/rishabhrawat05/HelloApp"
+    },
+    {
+        "name": "Data-Visualizer",
+        "title": "Data-Visualizer: Data Visualization Web Application",
+        "description": "Data-Visualizer is a web application to visualize data in the form of bar, line and pie charts using Chart.js. The application is built with Spring Boot for the backend and React for the frontend, providing an interactive and dynamic data visualization experience.",
+        "features": [
+            "Visualizes data using bar, line and pie charts with dynamic updates.",
+            "Utilizes Chart.js for powerful data visualization capabilities.",
+            "Built with Spring Boot for backend services and API integration.",
+            "Frontend is developed using React for a modern, responsive interface.",
+            "Allows users to upload CSV files and select the X and Y axis along with the charts type for data visualization."
+        ],
+        "technologies": [
+            "Spring Boot: For handling backend services and API management.",
+            "React.js: For building the interactive and responsive frontend.",
+            "Chart.js: For creating and rendering interactive bar charts."
+        ],
+        "github_link": "https://github.com/rishabhrawat05/Data-Visualizer"
+    }
+    
+]
