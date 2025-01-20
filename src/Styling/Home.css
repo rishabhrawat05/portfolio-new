@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-color: #262626;
-    
+    cursor: pointer;
 }
 .heading{
     color: grey;
@@ -85,7 +85,7 @@ button{
     .home{
         width: auto;
         overflow-y: auto;
-    
+        cursor: none;
     }
     .home .heading{
         font-size: 2em;

@@ -4,6 +4,7 @@
     width: 100%;
     background-color: #262626;
     overflow-y: auto;
+    cursor: pointer;
 }
 .heading{
     color: grey;
@@ -36,6 +37,9 @@
     padding: 5vh;
 }
 @media screen and (max-width: 768px){
+    .skills{
+        cursor: none;
+    }
     .heading{
         font-size: 2em;
         padding-left: 3vh;

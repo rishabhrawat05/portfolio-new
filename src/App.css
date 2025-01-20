@@ -1,8 +1,9 @@
 *{
-    cursor: pointer;
+   
     scroll-behavior: smooth;
-    
+   
 }
+
 .myapp{
     display: flex;
     height: 100vh;
